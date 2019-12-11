@@ -1,0 +1,33 @@
+{
+  "shouldOverRideConfig": true,
+  "summary": {
+    "displayByDefault": true,
+    "maxRecentlyViewedPatients": 1,
+    "printing": {
+      "title": "EndTB Patient Dashboard",
+      "header": "Patient Summary",
+      "logo": "../images/bahmniLogo.png",
+      "showNameAndImage": true
+    },
+    "sections": {
+      "BaselineBPNSDisplayright": {
+        "hideEmptyDisplayControl": true
+      },
+      "BaselineBPNSDisplayleft": {
+        "hideEmptyDisplayControl": true
+      },
+      "FollowupBPNSDisplayright": {
+        "hideEmptyDisplayControl": true
+      },
+      "FollowupBPNSDisplayLeft": {
+        "hideEmptyDisplayControl": true
+      },
+      "BaselineAcuityDisplay": {
+        "hideEmptyDisplayControl": true
+      },
+      "FollowupAcuityDisplay": {
+        "hideEmptyDisplayControl": true
+      }
+     }
+   }
+}
